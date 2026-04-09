@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Operation
-nav_order: 5
+parent: Software
+nav_order: 3
 ---
 
 # Operation

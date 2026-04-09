@@ -7,7 +7,9 @@ has_children: true
 
 # Software
 
-Brineomatic firmware is fully open source and licensed under the **GPLv3** license.  View the source on [github](https://github.com/hoeken/brineomatic-firmware).
+Brineomatic firmware is fully open source and licensed under the **GPLv3** license.
+
+View the source on [github](https://github.com/hoeken/brineomatic-firmware).
 
 ## Firmware Structure
 
@@ -33,17 +35,3 @@ Brineomatic transitions through well-defined states:
 - **PICKLED** – Long-term storage  
 
 Every stage includes structured safety checks, timeouts, and error recovery.
-
-## Sensor Processing
-
-- Configurable sample averaging  
-- 4–20 mA scaling for pressure sensors  
-- Temperature-compensated salinity calculation  
-- Flowmeter pulse accumulation and volumetric tracking  
-- Timed error checks with configurable thresholds  
-
-## Configuration
-
-- JSON config
-- General, hardware, and safeguard sections  
-- Runtime updates via UI or API
