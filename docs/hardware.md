@@ -6,33 +6,25 @@ nav_order: 2
 
 # Hardware
 
-## Controller Board
+## Revision C1
 
-Brineomatic is built around the ESP32-S3 with USB-C, using modular Yarrboard channels for relays, servos, steppers, and IO expansion.
-
-### Rev C Pinout
-
-![Brineomatic Rev C Pinout]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})
-
-### Rev B Pinout
-
-![Brineomatic Rev B Pinout]({{ '/assets/Brineomatic Rev B Pinout.png' | relative_url }})
+Revision C1 is the latest version of the Brineomatic board.
 
 ### Core capabilities:
+
 - ESP32-S3 module with WiFi and USB-C  
 - 12–30 V DC input with onboard power regulation  
-- 4 × relay/solenoid drivers  
-- 1 × stepper motor driver  
+- 5 × relay/solenoid drivers (3A max)
+- 1 × stepper motor driver
 - 2 × 5V servo connectors  
 - 2 × flowmeter inputs (product + brine)  
 - 2 × TDS connectors (product + brine)
 - 2 × 4–20 mA pressure sensor inputs (filter + membrane)  
-- DS18B20 motor temperature sensor  
-- Optional Modbus VFD pump support (GD20, etc.)  
-- Cooling fan output  
-- I²C expansion + test points (3.3V, 5V, 24V, SDA, SCL, GND)
+- 2 x DS18B20 motor temperature sensor  
+- Optional RS485 Modbus VFD pump support (GD20, etc.)  
+- I²C expansion (QWIIC)
 
-## Sensors and Inputs
+### Sensors and Inputs
 
 - Filter pressure (4–20 mA)  
 - Membrane pressure (4–20 mA)  
@@ -41,20 +33,20 @@ Brineomatic is built around the ESP32-S3 with USB-C, using modular Yarrboard cha
 - Product flowrate (pulse)  
 - Brine flowrate (pulse)  
 - Motor temperature (DS18B20)  
-- Water temperature (for salinity compensation)  
-- Tank level (via SignalK or API)
+- Water temperature (DS18B20)  
 
-## Outputs
+### Rev C1 Pinout
 
-- Boost pump (relay)  
-- High-pressure pump (relay or Modbus VFD)  
-- High-pressure valve (stepper motor)  
-- Diverter valve (servo)  
-- Flush valve (relay)  
-- Cooling fan (relay)
+![Brineomatic Rev C1 Pinout]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})
 
-## Mechanical Files
+### Source Files
 
-- Controller case (STEP)  
-- Rainman retrofit control panel (STEP)  
-- Fusion 360 reference assembly
+* [Brineomatic Github Repository](https://github.com/hoeken/brineomatic)
+* [Brineomatic Rev C Schematic](https://raw.githubusercontent.com/hoeken/brineomatic/main/schematics/Brineomatic%20Rev%20C1.pdf)
+* [3D Printable Case](https://raw.githubusercontent.com/hoeken/brineomatic/refs/heads/main/models/Brineomatic%20Rev%20C%20Case.step)
+
+## Old / Obsolete Information
+
+### Rev B Pinout
+
+![Brineomatic Rev B Pinout]({{ '/assets/Brineomatic Rev B Pinout.png' | relative_url }})
