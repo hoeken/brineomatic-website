@@ -1,0 +1,19 @@
+title: Brineomatic
+description: Open Hardware Watermaker Automation Controller
+remote_theme: just-the-docs/just-the-docs
+
+url: ""
+baseurl: ""
+
+color_scheme: default
+search_enabled: true
+heading_anchors: true
+
+aux_links:
+  "GitHub":
+    - "https://github.com/hoeken/brineomatic"
+
+footer_content: "Brineomatic is open source: firmware under GPLv3, hardware under OHL."
+
+plugins:
+  - jekyll-remote-theme
