@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Installation & Setup
-parent: Software Architecture
+parent: Software
 nav_order: 1
 ---
 

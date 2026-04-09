@@ -52,4 +52,4 @@ Brineomatic continuously monitors critical values and stops safely on failure:
 ![Brineomatic Running - Typical interface during a run cycle.]({{ '/assets/brineomatic-running.png' | relative_url }})
 
 ### Hardware 
-![Brineomatic Running - Typical interface during a run cycle.]({{ 'assets/Brineomatic Rev C Case.jpg' | relative_url }})
+![Brineomatic Rev C in a 3d printed case.]({{ 'assets/Brineomatic Rev C Case.jpg' | relative_url }})
