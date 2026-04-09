@@ -12,11 +12,11 @@ Brineomatic is built around the ESP32-S3 with USB-C, using modular Yarrboard cha
 
 ### Rev C Pinout
 
-![Brineomatic Rev C Pinout](/diagrams/Brineomatic%20Rev%20C%20Pinout.png)
+![Brineomatic Rev C Pinout]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})
 
 ### Rev B Pinout
 
-![Brineomatic Rev B Pinout](/diagrams/Brineomatic%20Rev%20B%20Pinout.png)
+![Brineomatic Rev B Pinout]({{ '/assets/Brineomatic Rev B Pinout.png' | relative_url }})
 
 ### Core capabilities:
 - ESP32-S3 module with WiFi and USB-C  

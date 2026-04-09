@@ -12,7 +12,7 @@ This project was started in order to automate my Rainman watermaker on my own pe
 
 These files demonstrate how to automate a Rainman watermaker with minimal modification and fail-safe fallback to manual mode.
 
-![Image of Brine-o-matic 9000 Rev A Electronics](/assets/rainman-install.jpg)
+![Image of Brine-o-matic 9000 Rev A Electronics]({{ '/assets/rainman-install.jpg' | relative_url }})
 
 You can find information on the reference implementation in the files in this repository. They contain example schematics for plumbing, sensors, wiring, AC contactor wiring, etc.
 

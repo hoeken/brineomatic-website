@@ -12,7 +12,7 @@ Built on the **ESP32-S3**, Brineomatic integrates pressure sensors, flow meters,
 
 Brineomatic is part of the **Yarrboard** ecosystem and benefits from its modular firmware channels, UI components, validation framework, and hardware abstraction layers.
 
-![Brineomatic Running - please ignore my old and tired membrane with high PPM!](/assets/brineomatic-running.png)
+![Brineomatic Running - please ignore my old and tired membrane with high PPM!]({{ '/assets/brineomatic-running.png' | relative_url }})
 
 ---
 

@@ -9,7 +9,7 @@ nav_order: 9
 ## Hardware
 - **Rev A** – Initial board - Ran for ~800 hours and ~100k liters of production.
 - **Rev B** – Integrated esp32-s3, USB C, stepper driver, more sensors.
-- **Rev C (in progress)**  
+- **Rev C**  
   - Additional mounting holes  
   - Moving piezo, 5V LED  
   - Improved test point layout  
