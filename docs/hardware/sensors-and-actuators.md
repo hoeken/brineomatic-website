@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Pressure Sensors
 
-Brineomatic supports standard 4–20 mA analog pressure sensors for monitoring filter inlet and membrane pressure.  These sensors are powered by the same voltage that powers the board (12v or 24v).
+Brineomatic supports standard 4–20 mA analog pressure sensors for monitoring filter inlet and membrane pressure.  These sensors are powered by the same voltage that powers the board (12v/24v).
 
 Typically you will want a 0-1000psi sensor for the high pressure side, and a 0-50psi sensor for the low pressure side.
 
@@ -19,7 +19,7 @@ Typically you will want a 0-1000psi sensor for the high pressure side, and a 0-5
 
 ### TDS / Salinity Sensors
 
-TDS (Total Dissolved Solids) sensor inputs are provided for measuring product water and brine salinity.  The inputs are designed to interface with the DFRobot TDS Sensor or clones.
+TDS (Total Dissolved Solids) sensor inputs are provided for measuring product water and brine salinity.  The inputs are designed to interface with the DFRobot TDS Sensor boards.
 
 ### Verified Suppliers
 

@@ -2,9 +2,10 @@
 layout: default
 title: Software Architecture
 nav_order: 3
+has_children: true
 ---
 
-# Software Architecture
+# Software
 
 ## Firmware Structure
 

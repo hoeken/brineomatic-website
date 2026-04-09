@@ -1,7 +1,8 @@
 ---
 layout: default
 title: API & Integrations
-nav_order: 6
+parent: Software Architecture
+nav_order: 2
 ---
 
 # API & Integrations
