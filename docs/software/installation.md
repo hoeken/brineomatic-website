@@ -7,32 +7,44 @@ nav_order: 1
 
 # Installation & Setup
 
-## Building the Firmware
-- Install PlatformIO  
-- Select the Brineomatic environment  
-- Build and upload via USB-C  
+## First Time Connection
 
-## Wiring & Plumbing
+1. Open the [Firmware Helper](https://firmware.brineomatic.com) page
+1. Select your board version, firmware version and upload
+1. Enter your wifi credentials using serial or Bluetooth
+1. Open browser to http://brineomatic.local
+1. Update your board settings, such as login info, name, etc.
+1. Install SignalK + signalk-yarrboard-plugin and configure
+1. Setup any Node-RED flows and custom logic you want.
 
-See `/diagrams/` for:
-- Sensor wiring (flowmeter, tds, pressure, etc)
-- Plumbing setup
-- Actuator wiring (relays, stepper, and servo)
-- Rainman retrofit specifics  
+## Firmware Update Methods
 
-## Network Setup
-- Device is configured using Improv Wifi 
-- Open `https://www.improv-wifi.com/` in Chrome
-- Click either Bluetooth or Serial to configure WiFi.
-- Connect to `http://brineomatic.local` or direct to IP
-- IP address can be found over serial monitor during bootup
+* Update the firmware using OTA from the web interface
+* Use the Firmware Helper linked above to choose a specific version
+* Compile from source using instructions below
 
-## Initial Configuration
-- Declare which sensors are present  
-- Declare which actuators are present
-- Enter hardware configuration details
-- Test each sensor and actuator (MANUAL mode)
-- Select desired error checking (more is better)
-- Set tank capacity  
-- Configure autoflush mode + interval
-- Select units (pressure, temperature, flow, etc.)
+## Development / Building From Source
+
+1. Clone the [firmware repository](https://github.com/hoeken/brineomatic-firmware)
+1. Run ```npm install``` in the repository to get some dev tools
+1. Plug your computer into the board
+1. Open the repository in VSCode
+1. Install the Platformio plugin if needed
+1. At the bottom, select your board from the build environments
+1. Build and/or upload firmware with the arrow in the upper right.
+
+### ArduinoOTA
+
+This allows you to upload new firmware over wifi from VSCode.
+
+1. Enable Arduino OTA in Settings -> Miscellaneous on the board
+1. Edit platformio.ini and add this to the bottom of your desired board [env:] section
+
+```
+; OTA Upload Config, auth password is your admin password
+upload_protocol = espota
+upload_port = brineomatic.local
+upload_flags = 
+ 	--auth=admin
+ 	--port=3232
+```

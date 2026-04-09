@@ -2,7 +2,7 @@
 layout: default
 title: Revision C1
 parent: Hardware
-nav_order: 1
+nav_order: 2
 ---
 
 # Revision C1
@@ -34,9 +34,9 @@ Revision C1 is the latest version of the Brineomatic board.
 - Motor temperature (DS18B20)  
 - Water temperature (DS18B20)  
 
-## Rev C1 Pinout
+## Rev C1 Pinout (click to enlarge)
 
-![Brineomatic Rev C1 Pinout]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})
+[![Brineomatic Rev C1 Pinout]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})
 
 ## Source Files
 

@@ -6,6 +6,24 @@ nav_order: 7
 
 # Reference Designs
 
+## Wiring & Plumbing
+
+See `/diagrams/` for:
+- Sensor wiring (flowmeter, tds, pressure, etc)
+- Plumbing setup
+- Actuator wiring (relays, stepper, and servo)
+- Rainman retrofit specifics  
+
+## Initial Configuration
+- Declare which sensors are present  
+- Declare which actuators are present
+- Enter hardware configuration details
+- Test each sensor and actuator (MANUAL mode)
+- Select desired error checking (more is better)
+- Set tank capacity  
+- Configure autoflush mode + interval
+- Select units (pressure, temperature, flow, etc.)
+
 ## Rainman Retrofit
 
 This project was started in order to automate my Rainman watermaker on my own personal boat.  The goals were to have minimal modifications to the original equipment, and to allow for graceful failure where the watermaker can be switched to manual mode very easily.  All of the critical digital sensors (flowrate, pressure, salinity) have an analog backup, and all of the critical actuated outputs (high pressure valve, diverter valve, flush, and boost pump) can be bypassed to manual mode by removing a few easy to access screws.

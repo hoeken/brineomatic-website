@@ -2,7 +2,7 @@
 layout: default
 title: Sensors and Actuators
 parent: Hardware
-nav_order: 3
+nav_order: 1
 ---
 
 # Sensors

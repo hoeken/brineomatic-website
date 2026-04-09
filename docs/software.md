@@ -1,22 +1,22 @@
 ---
 layout: default
-title: Software Architecture
+title: Software
 nav_order: 3
 has_children: true
 ---
 
 # Software
 
+Brineomatic firmware is fully open source and licensed under the **GPLv3** license.  View the source on [github](https://github.com/hoeken/brineomatic-firmware).
+
 ## Firmware Structure
 
-The firmware uses the Yarrboard modular ecosystem:
+The firmware uses the [YarrboardFramework](https://github.com/hoeken/YarrboardFramework) under the hood:
 - Shared channel classes (RelayChannel, ServoChannel, StepperChannel)  
 - High-level state machine  
 - Real-time FreeRTOS task for automation  
-- Non-blocking I/O  
-- ADS1115 averaging helpers  
-- OneWire/DS18B20 sensor handling  
-- JSON configuration/validation system  
+- JSON configuration/validation system
+- Multiple API options
 
 ## State Machine
 
@@ -44,7 +44,6 @@ Every stage includes structured safety checks, timeouts, and error recovery.
 
 ## Configuration
 
-- JSON config for each backup  
+- JSON config
 - General, hardware, and safeguard sections  
-- Runtime updates via UI or API  
-- EEPROM last flush time persistence  
+- Runtime updates via UI or API
