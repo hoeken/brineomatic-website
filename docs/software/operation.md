@@ -7,6 +7,10 @@ nav_order: 3
 
 # Operation
 
+You can access the firmware at [http://brineomatic.local](http://brineomatic.local) ([http://brineomatic](http://brineomatic) on Android) or by entering the IP address.  The IP address and hostname are printed out over the serial port at startup.  You should see an interface similar to this:
+
+![Brineomatic Idle]({{ 'assets/brineomatic-idle.png' | relative_url }})
+
 ## Normal Run Cycle
 Supports three modes:
 - **Tank Fill**  
@@ -40,7 +44,7 @@ If any threshold fails after a configurable time period, the controller:
 - Stores result code  
 - Resets all valve states 
 - Disables pumps  
-- Logs result  
+- Logs result
 - Returns to IDLE
 
 Error codes include membrane pressure failures, filter clogging, salinity issues, motor temperature, total flowrate loss, and more.

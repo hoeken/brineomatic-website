@@ -1,18 +1,18 @@
 ---
 layout: default
-title: Installation & Setup
+title: Firmware Installation
 parent: Software
 nav_order: 1
 ---
 
-# Installation & Setup
+# Firmware Installation
 
 ## First Time Connection
 
 1. Open the [Firmware Helper](https://firmware.brineomatic.com) page
 1. Select your board version, firmware version and upload
 1. Enter your wifi credentials using serial or Bluetooth
-1. Open browser to http://brineomatic.local
+1. Open browser to [http://brineomatic.local](http://brineomatic.local)
 1. Update your board settings, such as login info, name, etc.
 1. Install SignalK + signalk-yarrboard-plugin and configure
 1. Setup any Node-RED flows and custom logic you want.
