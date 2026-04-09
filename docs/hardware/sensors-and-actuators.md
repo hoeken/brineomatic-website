@@ -19,7 +19,7 @@ Typically you will want a 0-1000psi sensor for the high pressure side, and a 0-5
 
 ### TDS / Salinity Sensors
 
-Two TDS (Total Dissolved Solids) sensor inputs are provided for measuring product water and brine salinity.  The inputs are designed to interface with the DFRobot TDS Sensor or clones.
+TDS (Total Dissolved Solids) sensor inputs are provided for measuring product water and brine salinity.  The inputs are designed to interface with the DFRobot TDS Sensor or clones.
 
 ### Verified Suppliers
 
@@ -27,7 +27,7 @@ Two TDS (Total Dissolved Solids) sensor inputs are provided for measuring produc
 
 ### Flow Meters (Pulse)
 
-Two pulse-type flow meter inputs are supported for measuring product and brine flow rates.  These flowmeters should accept 5v power and have an open collector output.  This is the most common type.
+Pulse-type flow meter inputs are supported for measuring product and brine flow rates.  These flowmeters should accept 5v power and have an open collector output.  This is the most common type.
 
 ### Verified Suppliers
 
@@ -36,7 +36,7 @@ Two pulse-type flow meter inputs are supported for measuring product and brine f
 
 ### Temperature Sensors (DS18B20)
 
-Two DS18B20 digital temperature sensor inputs are available for monitoring motor and water temperature.
+DS18B20 digital temperature sensor inputs are available for monitoring motor and water temperature.
 
 ### Verified Suppliers
 
@@ -46,17 +46,17 @@ Two DS18B20 digital temperature sensor inputs are available for monitoring motor
 
 ## Relays / Solenoid Drivers
 
-Brineomatic provides 5 relay/solenoid driver outputs (3A max each) for controlling solenoid valves and other loads.  Loads will be powered with the same voltage supplying the board (12v/24v)
+Brineomatic provides relay/solenoid driver outputs (3A max each) for controlling solenoid valves and other loads.  Loads will be powered with the same voltage supplying the board (12v/24v)
 
 You can power low-power things like relays, contactors, fans, and solenoid valves directly.  Larger loads like big AC or DC motors will require using a relay or contactor wired to the Brineomatic relay channel.
 
 ## Stepper Motor
 
-One onboard stepper motor driver is available for controlling the high pressure valve.  The ideal stepper motor is a 0.5A to 1.5A, NEMA17 motor.  These are readily available on Amazon, etc.
+An onboard stepper motor driver is available for controlling the high pressure valve.  The ideal stepper motor is a 0.5A to 1.5A, NEMA17 motor.  These are readily available on Amazon, etc.
 
 ## DC Servos
 
-Two 5V servo connectors are provided for standard RC-style servo actuators to open and control valves.  Brineomatic has a maximum 3A output, so using a servo motor that is too large may cause the board to brown-out and reset.  Most hobbyist size servos will be compatible.
+5V servo connectors are provided for standard RC-style servo actuators to open and control valves.  Brineomatic has a maximum 3A output, so using a servo motor that is too large may cause the board to brown-out and reset.  Most hobbyist size servos will be compatible.
 
 ### Verified Suppliers
 
