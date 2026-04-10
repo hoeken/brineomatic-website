@@ -15,8 +15,6 @@ Here is the block diagram of my retrofit with part numbers:
 
 [![Phoenix Rainman Setup Diagram]({{ '/assets/Phoenix - Rainman Setup.drawio.png' | relative_url }})]({{ '/assets/Phoenix - Rainman Setup.drawio.pdf' | relative_url }})
 
-Here are the source files for everything, including the 3d printed parts.
-
 ## Files
 
 * [Rainman Plumbing Diagram - Drawio](https://github.com/hoeken/brineomatic/blob/main/diagrams/Phoenix%20-%20Rainman%20Setup.drawio)
