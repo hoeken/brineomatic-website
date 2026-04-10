@@ -21,4 +21,4 @@ You can find information on the reference implementation in the files in this re
 
 * [Rainman Plumbing Diagram](https://github.com/hoeken/brineomatic/blob/main/diagrams/Phoenix%20-%20Rainman%20Setup.drawio)
 * [Electronics Wiring Diagram](https://github.com/hoeken/brineomatic/blob/main/diagrams/Brine-o-Matic%209000.drawio)
-* [3D Printable Control Panel](https://github.com/hoeken/brineomatic/blob/main/models/Rainman%20Control%20Panel%20-%20Rev%20A.step)
+* [3D Printable Control Panel](https://github.com/hoeken/brineomatic/blob/main/models/Rainman%20Control%20Panel%20-%20Rev%20B.step)
