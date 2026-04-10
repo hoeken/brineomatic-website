@@ -2,39 +2,41 @@
 layout: default
 title: Reference Designs
 nav_order: 7
+has_children: true
 ---
 
 # Reference Designs
 
 ## Wiring & Plumbing
 
-See `/diagrams/` for:
-- Sensor wiring (flowmeter, tds, pressure, etc)
-- Plumbing setup
-- Actuator wiring (relays, stepper, and servo)
-- Rainman retrofit specifics  
+### Plumbing
+
+[![Brine-o-Matic 9000 Plumbing Diagram]({{ '/assets/Brine-o-Matic 9000-Plumbing.drawio.png' | relative_url }})]({{ '/assets/Brine-o-Matic 9000-Plumbing.drawio.png' | relative_url }})
+
+### Electrical - Control Board
+
+[![Brine-o-Matic 9000 Control Board Wiring]({{ '/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png' | relative_url }})]({{ '/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png' | relative_url }})
+
+### Electrical - High Voltage
+
+[![Brine-o-Matic 9000 High Voltage Wiring]({{ '/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png' | relative_url }})]({{ '/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png' | relative_url }})
 
 ## Initial Configuration
+- Set tank capacity  
+- Select units (pressure, temperature, flow, etc.)
 - Declare which sensors are present  
 - Declare which actuators are present
 - Enter hardware configuration details
 - Test each sensor and actuator (MANUAL mode)
 - Select desired error checking (more is better)
-- Set tank capacity  
+- Setup external data feed (battery level, tank level, water temperature, etc.)
 - Configure autoflush mode + interval
-- Select units (pressure, temperature, flow, etc.)
 
 ## Rainman Retrofit
 
-This project was started in order to automate my Rainman watermaker on my own personal boat.  The goals were to have minimal modifications to the original equipment, and to allow for graceful failure where the watermaker can be switched to manual mode very easily.  All of the critical digital sensors (flowrate, pressure, salinity) have an analog backup, and all of the critical actuated outputs (high pressure valve, diverter valve, flush, and boost pump) can be bypassed to manual mode by removing a few easy to access screws.
+[![Phoenix Rainman Setup Diagram]({{ '/assets/Phoenix - Rainman Setup.drawio.png' | relative_url }})]({{ '/docs/reference/rainman-retrofit' | relative_url }})
 
-These files demonstrate how to automate a Rainman watermaker with minimal modification and fail-safe fallback to manual mode.
-
-![Image of Brine-o-matic 9000 Rev A Electronics]({{ '/assets/rainman-install.jpg' | relative_url }})
-
-You can find information on the reference implementation in the files in this repository. They contain example schematics for plumbing, sensors, wiring, AC contactor wiring, etc.
-
-There is also a 3D model with a control panel layout and parts for automating a Rainman watermaker.  This is available as a STEP file that should be editable with FreeCAD.  The actual design was done in Fusion360 which is available through the link below.
+See the [Rainman Retrofit]({{ '/docs/reference/rainman-retrofit' | relative_url }}) page for full details on automating a Rainman watermaker with minimal modification and fail-safe fallback to manual mode.
 
 ## Adapting to Other Watermakers
 Guidance for:

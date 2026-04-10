@@ -15,7 +15,7 @@ Typically you will want a 0-1000psi sensor for the high pressure side, and a 0-5
 
 ### Verified Suppliers
 
-* [DataQ](https://www.dataq.com/products/accessories/pressure-sensor/)
+* [DataQ](https://www.dataq.com/products/accessories/pressure-sensor/4to20index.html)
 
 ### TDS / Salinity Sensors
 
