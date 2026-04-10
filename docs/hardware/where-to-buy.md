@@ -15,4 +15,4 @@ All hardware design files (schematics, gerbers, and BOM) are available on [GitHu
 
 ## Buy a Assembled Unit
 
-At some point, we plan on offering assembled PCBs as well as hardware kits to help you automate your own watermaker.  If you are interested, please [enter your email here](https://forms.gle/CyuddCLdqdT9jqcTA).
+At some point, we plan on offering assembled PCBs as well as hardware kits to help you automate your own watermaker.  If you would like to be notified when they are available, please [enter your email here](https://forms.gle/CyuddCLdqdT9jqcTA).
