@@ -11,6 +11,20 @@ You can access the firmware at [http://brineomatic.local](http://brineomatic.loc
 
 ![Brineomatic Idle]({{ 'assets/brineomatic-idle.png' | relative_url }})
 
+## Initial Configuration
+
+Open the web UI and go to the settings page.  There you can edit things such as:
+
+- Tank capacity  
+- Select units (pressure, temperature, flow, etc.)
+- Declare which sensors are present  
+- Declare which actuators are present
+- Enter hardware configuration details
+- Test each sensor and actuator (MANUAL mode)
+- Select desired error checking (more is better)
+- Setup external data feed (battery level, tank level, water temperature, etc.)
+- Configure autoflush mode + interval
+
 ## Normal Run Cycle
 Supports three modes:
 - **Tank Fill**  

@@ -15,6 +15,10 @@ Brineomatic hardware is fully open source and licensed under the **Open Hardware
 
 Brineomatic is designed to be compatible with a wide variety of different hardware.  Please see the [Sensors and Actuators]({{ '/docs/hardware/sensors-and-actuators' | relative_url }}) page for full details.
 
+## Where To Buy
+
+You can [build one yourself from JLCPCB]({{ '/docs/hardware/where-to-buy' | relative_url }}) or wait until we start selling pre-assembled units in the future.
+
 ## Revisions
 
 - [Revision C1]({{ '/docs/hardware/revision-c1' | relative_url }}) — latest version

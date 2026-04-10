@@ -21,22 +21,11 @@ has_children: true
 
 [![Brine-o-Matic 9000 High Voltage Wiring]({{ '/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png' | relative_url }})]({{ '/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png' | relative_url }})
 
-## Initial Configuration
-- Set tank capacity  
-- Select units (pressure, temperature, flow, etc.)
-- Declare which sensors are present  
-- Declare which actuators are present
-- Enter hardware configuration details
-- Test each sensor and actuator (MANUAL mode)
-- Select desired error checking (more is better)
-- Setup external data feed (battery level, tank level, water temperature, etc.)
-- Configure autoflush mode + interval
-
 ## Rainman Retrofit
 
-[![Phoenix Rainman Setup Diagram]({{ '/assets/Phoenix - Rainman Setup.drawio.png' | relative_url }})]({{ '/docs/reference/rainman-retrofit' | relative_url }})
+[![Phoenix Rainman Setup Diagram]({{ '/assets/rainman-install.jpg' | relative_url }})]({{ '/docs/reference/rainman-retrofit' | relative_url }})
 
-See the [Rainman Retrofit]({{ '/docs/reference/rainman-retrofit' | relative_url }}) page for full details on automating a Rainman watermaker with minimal modification and fail-safe fallback to manual mode.
+See the [Rainman Retrofit]({{ '/docs/reference/rainman-retrofit' | relative_url }}) page for more details on automating a Rainman watermaker with minimal modification and fail-safe fallback to manual mode.
 
 ## Adapting to Other Watermakers
 Guidance for:
