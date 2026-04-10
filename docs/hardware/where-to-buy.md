@@ -15,4 +15,4 @@ All hardware design files (schematics, gerbers, and BOM) are available on [GitHu
 
 ## Buy a Assembled Unit
 
-We plan to offer pre-built, fully assembled Brineomatic units for sale in the future. Check back here for updates, or follow the project on GitHub to be notified when they become available.
+At some point, we plan on offering assembled PCBs as well as hardware kits to help you automate your own watermaker.  If you are interested, please [enter your email here](https://forms.gle/CyuddCLdqdT9jqcTA).
