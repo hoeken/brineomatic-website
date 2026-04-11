@@ -7,8 +7,6 @@ has_children: true
 
 # Hardware
 
-Brineomatic hardware is fully open source and licensed under the **Open Hardware License (OHL)** license.  View the source on [github](https://github.com/hoeken/brineomatic).
-
 ![Layout of Revision C in Kicad.]({{ 'assets/brineomatic-rev-c layout.png' | relative_url }})
 
 ## Sensors and Actuators
@@ -23,3 +21,7 @@ You can [build one yourself from JLCPCB]({{ '/docs/hardware/where-to-buy' | rela
 
 - [Revision C1]({{ '/docs/hardware/revision-c1' | relative_url }}) — latest version
 - [Revision B]({{ '/docs/hardware/revision-b' | relative_url }}) — obsolete
+
+Brineomatic hardware is fully open source and licensed under the **Open Hardware License (OHL)** license.
+
+All hardware design files (schematics, gerbers, and BOM) are available on [GitHub](https://github.com/hoeken/brineomatic).
