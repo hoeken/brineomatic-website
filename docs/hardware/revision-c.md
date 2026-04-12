@@ -54,7 +54,7 @@ The RS485 is configured in half-duplex mode, with Brineomatic operating as MODBU
 
 ## Rev C Pinout (click to enlarge)
 
-[![Brineomatic Rev C1 Pinout](/assets/Brineomatic Rev C Pinout.png)](/assets/Brineomatic Rev C Pinout.png)
+[![Brineomatic Rev C1 Pinout](/assets/Brineomatic Rev C1 Pinout.pdf)](/assets/Brineomatic Rev C1 Pinout.png)
 
 ## Source Files
 

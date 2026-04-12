@@ -26,6 +26,7 @@ Brineomatic is designed to be compatible with a wide variety of different hardwa
 ## Revisions
 
 - [Revision C](/docs/hardware/revision-c) — latest version
+  - **Revision C1** is fully compatible with only minor silkscreen and part changes.
 
 Brineomatic hardware is fully open source and licensed under the **Open Hardware License (OHL)** license.
 
