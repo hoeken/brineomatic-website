@@ -7,7 +7,8 @@ nav_order: 2
 
 # Revision C
 
-Revision C is the latest version of the Brineomatic board.
+<div class="d-none d-md-block float-right ml-3 mb-3" style="width: 300px;"><a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-fluid"></a></div>
+<div class="d-block d-md-none mb-3"><a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-fluid w-100"></a></div>
 
 ## Core capabilities:
 
@@ -23,18 +24,36 @@ Revision C is the latest version of the Brineomatic board.
 - Optional RS485 Modbus VFD pump support (GD20, etc.)  
 - I²C expansion (QWIIC)
 
+## Power Input
+
+Brineomatic can take power from 12v to 30v, which makes it compatible with both 12v and 24v systems, both lead acid and LFP battery systems.  If your watermaker is AC powered, you can also use a small AC to DC converter like the [Meanwell HDR-30-24](https://www.amazon.com/dp/B084X92CK6) in order to have a single power supply.
+
+The board has a built-in 5x20mm cylinder format fuse on the power supply input.  The recommended fuse is 3.15A.
+
+Additionally, Brineomatic has an industrial grade power protection circuit with reverse polarity, reverse current, and an internal 4A eFuse overcurrent protection.
+
 ## Sensors and Inputs
 
+- Product flowrate (pulse)  
+- Brine flowrate (pulse)  
 - Filter pressure (4–20 mA)  
 - Membrane pressure (4–20 mA)  
 - Product salinity (TDS)  
 - Brine salinity (TDS)  
-- Product flowrate (pulse)  
-- Brine flowrate (pulse)  
 - Motor temperature (DS18B20)  
-- Water temperature (DS18B20)  
+- Water temperature (DS18B20)
 
-## Rev C1 Pinout (click to enlarge)
+## Actuator Outputs
+
+- 5 x Relay / Solenoid Drivers (3A max)
+- 1 x Stepper Motor (1.5A max)
+- 2 x DC Servo Motor (3A max)
+
+## RS485
+
+The RS485 is configured in half-duplex mode, with Brineomatic operating as MODBUS master.
+
+## Rev C Pinout (click to enlarge)
 
 [![Brineomatic Rev C1 Pinout]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})]({{ '/assets/Brineomatic Rev C Pinout.png' | relative_url }})
 

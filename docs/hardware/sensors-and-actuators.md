@@ -7,6 +7,10 @@ nav_order: 1
 
 # Sensors
 
+## JST-PH 2.0 Connectors
+
+Brineomatic uses JST-PH 2.0 connectors for many of its connectors.  It is very helpful to get a [connector kit](https://www.amazon.com/dp/B08S32GJRF) with pre-crimped wires and various connectors.  This will allow you to make customized connectors very easily.
+
 ## Pressure Sensors
 
 Brineomatic supports standard 4–20 mA analog pressure sensors for monitoring filter inlet and membrane pressure.  These sensors are powered by the same voltage that powers the board (12v/24v).
@@ -31,7 +35,7 @@ Pulse-type flow meter inputs are supported for measuring product and brine flow 
 
 ### Verified Suppliers
 
-* [Amazon Flowmeter](https://www.amazon.com/dp/B07MY7H45V) - Push fit connector style is simple to use, cheap, and reliable
+* [Amazon Flowmeter](https://www.amazon.com/dp/B07MY7H45V) - Push fit connector style is simple to use, cheap, and reliable.
 * [Omega BV2000TRN075B](https://www.dwyeromega.com/) - These parts are hard to get and expensive.
 
 ## Temperature Sensors (DS18B20)
@@ -52,9 +56,9 @@ Brineomatic provides relay/solenoid driver outputs (3A max each) for controlling
 
 You can power low-power things like relays, contactors, fans, and solenoid valves directly.  Larger loads like big AC or DC motors will require using a relay or contactor wired to the Brineomatic relay channel.
 
-* [Solenoid Valve](https://www.amazon.com/dp/B00APDEASA) - A simple solenoid valve like this is very reliable for a flush valve. Not for continuous duty
+* [Solenoid Valve](https://www.amazon.com/dp/B00APDEASA) - A simple solenoid valve like this is very reliable for a flush valve. Not for continuous duty.
 * [Motorized Ball Valve](https://www.amazon.com/dp/B0CCNDQYQH) - A motorized ball valve like this is low power, but the 2 wire versions can fail.
-* [24v Relay](https://www.amazon.com/Electromagnetic-Power-Relay-Socket-Indicator/dp/B09B1MZKYQ) - A simple relay for controlling larger loads like a boost pump, or AC contactor
+* [24v Relay](https://www.amazon.com/Electromagnetic-Power-Relay-Socket-Indicator/dp/B09B1MZKYQ) - A simple relay for controlling larger loads like a boost pump, or AC contactor.
 
 ## Stepper Motor
 
