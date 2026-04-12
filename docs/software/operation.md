@@ -13,6 +13,8 @@ You can access the firmware at [http://brineomatic.local](http://brineomatic.loc
 
 ## Normal Run Cycle
 
+<img src="/assets/start watermaker.png" alt="Watermaker Start UI" class="img-right">
+
 Supports three modes:
 - **Automatic** (requires Tank Level data)
 - **Duration**
@@ -31,12 +33,18 @@ Brineomatic will:
 10. Finish with autoflush
 
 ## Flush Cycle
+
+<img src="/assets/flush watermaker.png" alt="Watermaker Flush UI" class="img-right">
+
 Supports three modes:
 - **Time-based**  
 - **Volume-based** (requires Brine Flowrate Sensor)
 - **Automatic** (requires Brine TDS sensor)  
 
 ## Pickling / Depickling
+
+<img src="/assets/pickle watermaker.png" alt="Watermaker Start UI" class="img-right">
+
 Runs high pressure pump for a set period of time to fill the machine with pickling solution.  Also stores the pickled state in non-volatile memory in case of reboot or power loss.  Brineomatic can safely be turned off after entering Pickled mode and it will remember the state when you next turn it back on.
 
 ## Error Handling

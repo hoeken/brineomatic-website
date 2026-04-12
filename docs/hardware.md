@@ -17,12 +17,11 @@ Brineomatic is designed to be compatible with a wide variety of different hardwa
 
 ## Where To Buy
 
-You can [build one yourself from JLCPCB]({{ '/docs/hardware/where-to-buy' | relative_url }}) or wait until we start selling pre-assembled units in the future.
+[Details on how to get Brineomatic here](/docs/hardware/where-to-buy)
 
 ## Revisions
 
 - [Revision C]({{ '/docs/hardware/revision-c' | relative_url }}) — latest version
-- [Revision B]({{ '/docs/hardware/revision-b' | relative_url }}) — obsolete
 
 Brineomatic hardware is fully open source and licensed under the **Open Hardware License (OHL)** license.
 

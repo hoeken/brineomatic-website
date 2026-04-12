@@ -15,10 +15,10 @@ The easiest way to commission a system is to work through each sensor and actuat
 
 ## Step 1: Sensors
 
-- **Flowmeters** you can test by blowing through them.
-- **TDS sensors** you can test with a glass of tap water.
-- **Pressure sensors** you can test simply by plugging in, as the system can detect valid 4-20ma sensor readings.
-- **Temperature sensors** you can test by warming them up with your hand or a glass of hot water.
+- **Flowmeters** - you can test by blowing through them.
+- **TDS sensors** - you can test with a glass of tap water.
+- **Pressure sensors** - you can test simply by plugging in, as the system can detect valid 4-20ma sensor readings.
+- **Temperature sensors** - you can test by warming them up with your hand or a glass of hot water.
 
 ## Step 2: Relays / Solenoids
 
@@ -58,4 +58,4 @@ Lastly, turn the high pressure pump on, and move your high pressure valve to you
 
 ## Step 10: Make Some Water!
 
-Turn everything off, and now you are ready to [make some water]({{ '/docs/software/operation' | relative_url }})!
+Turn everything off, and now you are ready to [make some water](/docs/software/operation)!
