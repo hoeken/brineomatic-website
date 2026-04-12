@@ -13,10 +13,6 @@ has_children: true
 
 [![Brine-o-Matic 9000 Plumbing Diagram](/assets/Brine-o-Matic 9000-Plumbing.drawio.png)](/assets/Brine-o-Matic 9000-Plumbing.drawio.pdf)
 
-### Electrical - Control Board
-
-[![Brine-o-Matic 9000 Control Board Wiring](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.pdf)
-
 ### Electrical - High Voltage
 
 [![Brine-o-Matic 9000 High Voltage Wiring](/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.pdf)
