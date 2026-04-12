@@ -9,6 +9,8 @@ nav_order: 1
 
 ## JST-PH 2.0 Connectors
 
+<div class="float-md-right ml-md-3 mb-3" style="width: 300px; max-width: 100%;"><img src="/assets/jst-ph 2.0.jpg" class="img-fluid"></div>
+
 Brineomatic uses JST-PH 2.0 connectors for many of its connectors.  It is very helpful to get a [connector kit](https://www.amazon.com/dp/B08S32GJRF) with pre-crimped wires and various connectors.  This will allow you to make customized connectors very easily.
 
 ## Pressure Sensors
