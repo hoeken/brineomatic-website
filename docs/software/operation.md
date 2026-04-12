@@ -11,25 +11,12 @@ You can access the firmware at [http://brineomatic.local](http://brineomatic.loc
 
 ![Brineomatic Idle]({{ 'assets/brineomatic-idle.png' | relative_url }})
 
-## Initial Configuration
-
-Open the web UI and go to the settings page.  There you can edit things such as:
-
-- Tank capacity  
-- Select units (pressure, temperature, flow, etc.)
-- Declare which sensors are present  
-- Declare which actuators are present
-- Enter hardware configuration details
-- Test each sensor and actuator (MANUAL mode)
-- Select desired error checking (more is better)
-- Setup external data feed (battery level, tank level, water temperature, etc.)
-- Configure autoflush mode + interval
-
 ## Normal Run Cycle
+
 Supports three modes:
-- **Tank Fill**  
-- **Time-based**  
-- **Volume-based**  
+- **Automatic** (requires Tank Level data)
+- **Duration**
+- **Volume** (requires Brine Flowrate sensor)
 
 Brineomatic will:
 1. Initialize hardware  
@@ -46,11 +33,11 @@ Brineomatic will:
 ## Flush Cycle
 Supports three modes:
 - **Time-based**  
-- **Volume-based**  
-- **Brine Salinity-based**  
+- **Volume-based** (requires Brine Flowrate Sensor)
+- **Automatic** (requires Brine TDS sensor)  
 
 ## Pickling / Depickling
-Runs high pressure pump for a set period of time to fill the machine with pickling solution.  Also stores the pickled state in non-volatile memory in case of reboot.
+Runs high pressure pump for a set period of time to fill the machine with pickling solution.  Also stores the pickled state in non-volatile memory in case of reboot or power loss.  Brineomatic can safely be turned off after entering Pickled mode and it will remember the state when you next turn it back on.
 
 ## Error Handling
 If any threshold fails after a configurable time period, the controller:
