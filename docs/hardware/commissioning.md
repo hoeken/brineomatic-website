@@ -22,17 +22,17 @@ The easiest way to commission a system is to work through each sensor and actuat
 
 ## Step 2: Relays / Solenoids
 
-Relay channels, you can test using manual mode.  Switch to manual mode and toggle the device you are testing.  Easy peasy.
+Switch to **MANUAL** mode and toggle the device you are testing.  Easy peasy.
 
 ## Step 3: Stepper Motor
 
-The stepper motor can be tested by going to Manual Mode -> Advanced.  You can move it forwards and backwards.  Attach a piece of tape to the motor shaft to see it moving more easily.  Move it 360 degrees and make sure that is how far it moves to verify your stepper settings.
+The stepper motor can be tested by going to **Manual Mode -> Advanced**.  You can move it forwards and backwards.  Attach a piece of tape to the motor shaft to see it moving more easily.  Move it 360 degrees and make sure that is how far it moves to verify your stepper settings.
 
 Once you have the stepper motor working, you can install it into the high pressure valve.  After that you should test again in manual mode to make sure that the set angle corresponds to the real world angle of the high pressure valve.  You should also check that the homing mode works correctly and doesnt jam in the open position.
 
 ## Step 4: Servo Motors
 
-The servos can also be tested by going to Manual Mode -> Advanced.  You can move the servo to any arbitrary angle.  This will allow you to dial in the servo position for opening and closing valves.  Once you have the servo working, install it onto the valve assembly.  Now test the valve in Manual Mode by toggling the valve button itself, and not using the advanced mode.
+The servos can also be tested by going to **Manual Mode -> Advanced**.  You can move the servo to any arbitrary angle.  This will allow you to dial in the servo position for opening and closing valves.  Once you have the servo working, install it onto the valve assembly.  Now test the valve in Manual Mode by toggling the valve button itself, and not using the advanced mode.
 
 ## Step 5: Install Everything
 
@@ -50,12 +50,12 @@ Once that is working, it is time to move on to the high pressure pump.  First, m
 
 After a minute or two, the watermaker should be at pressure and producing good product water.  You can verify this will all of your sensors and any analog gauges you have installed.  Now you can test your diverter valve.  Make a note of your product, brine, and total flowrate.  Turn on the diverter valve button and the product water should go to your tanks. The total flowrate should also go down by the same amount as your product flowrate.  Turn the diverter valve off and it should go overboard with the brine.
 
-## Step 8: High Pressure Valve
+## Step 9: High Pressure Valve
 
 Open your high pressure valve and turn off your high pressure pump.  Use the Manual -> Advanced mode and click 'Home' on your stepper motor.  Verify that it moves in the correct direction and doesnt jam.  Use the UI to move it to your desired operating angle and verify it moves to that exact angle.  Use the homing button again to reset it.
 
 Lastly, turn the high pressure pump on, and move your high pressure valve to your operating angle.  Use the +/- buttons to tweak the angle to get the pressure just right.  It is better to undershoot the pressure and slowly increase the angle so that you don't introduce backlash errors into the system.
 
-## Step 9: Make Some Water!
+## Step 10: Make Some Water!
 
 Turn everything off, and now you are ready to [make some water]({{ '/docs/hardware/revision-c' | relative_url }})!
