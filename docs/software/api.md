@@ -96,4 +96,4 @@ One way to get battery level, tank level, and water temperature information into
 
 [Download the Node-RED flow here.](https://raw.githubusercontent.com/hoeken/brineomatic/main/brineomatic_node_red.json)
 
-![Node RED Flow]({{ '/assets/Node-RED flow.png' | relative_url }})
+![Node RED Flow](/assets/Node-RED flow.png)

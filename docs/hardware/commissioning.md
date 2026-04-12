@@ -7,7 +7,7 @@ nav_order: 3
 
 # Commissioning
 
-Before testing each piece of hardware, you will need to configure it in **Settings -> Hardware**.  See the [Software Configuration]({{ '/docs/software/configuration' | relative_url }}) section for more information.
+Before testing each piece of hardware, you will need to configure it in **Settings -> Hardware**.  See the [Software Configuration](/docs/software/configuration) section for more information.
 
 For the commissioning process, you will need to power Brineomatic from an external 12v or 24v power supply.
 

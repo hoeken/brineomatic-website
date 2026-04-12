@@ -11,9 +11,13 @@ has_children: true
 
 ![Fininished PCBA](/assets/Brineomatic Rev C PCBA.jpg)
 
+## Block Level Design
+
+[![Brine-o-Matic 9000 Control Board Wiring](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - Control Board.drawio.pdf)
+
 ## Sensors and Actuators
 
-Brineomatic is designed to be compatible with a wide variety of different hardware.  Please see the [Sensors and Actuators]({{ '/docs/hardware/sensors-and-actuators' | relative_url }}) page for full details.
+Brineomatic is designed to be compatible with a wide variety of different hardware.  Please see the [Sensors and Actuators](/docs/hardware/sensors-and-actuators) page for full details.
 
 ## Where To Buy
 
@@ -21,7 +25,7 @@ Brineomatic is designed to be compatible with a wide variety of different hardwa
 
 ## Revisions
 
-- [Revision C]({{ '/docs/hardware/revision-c' | relative_url }}) — latest version
+- [Revision C](/docs/hardware/revision-c) — latest version
 
 Brineomatic hardware is fully open source and licensed under the **Open Hardware License (OHL)** license.
 

@@ -9,8 +9,8 @@ nav_exclude: true
 # Revision B
 
 {: .warning }
-Revision B is obsolete. See [Revision C1]({{ '/docs/hardware/revision-c1' | relative_url }}) for the current version.
+Revision B is obsolete. See [Revision C](/docs/hardware/revision-c) for the current version.
 
 ## Rev B Pinout
 
-![Brineomatic Rev B Pinout]({{ '/assets/Brineomatic Rev B Pinout.png' | relative_url }})
+![Brineomatic Rev B Pinout](/assets/Brineomatic Rev B Pinout.png)
