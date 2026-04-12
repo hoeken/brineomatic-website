@@ -9,13 +9,15 @@ nav_order: 3
 
 Before testing each piece of hardware, you will need to configure it in **Settings -> Hardware**.  See the [Software Configuration]({{ '/docs/software/configuration' | relative_url }}) section for more information.
 
+For the commissioning process, you will need to power Brineomatic from an external 12v or 24v power supply.
+
 ## Step 1: Sensors
 
 The easiest way to commission a system is to work through each sensor and actuator one by one, without connecting them to the watermaker.  Flowmeters you can test by blowing through them.  TDS sensors you can test with a glass of tap water.  Pressure sensors you can test simply by plugging in, as the system can detect invalid 4-20ma sensor readings.  Temperature sensors you can test by warming them up with your hand or a glass of hot water.
 
 ## Step 2: Relays / Solenoids
 
-Relay channels, you can test using manual mode.  Switch to manual mode and toggle the device you are testing.
+Relay channels, you can test using manual mode.  Switch to manual mode and toggle the device you are testing.  Easy peasy.
 
 ## Step 3: Stepper Motor
 
