@@ -7,9 +7,9 @@ nav_order: 2
 
 # Revision C
 
-<a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-right"></a>
-
 ## Core capabilities:
+
+<a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-right"></a>
 
 - ESP32-S3 module with WiFi and USB-C  
 - 12–30 V DC input with onboard power regulation  
@@ -27,7 +27,7 @@ nav_order: 2
 
 Brineomatic can take power from 12v to 30v, which makes it compatible with both 12v and 24v systems, both lead acid and LFP battery systems.  If your watermaker is AC powered, you can also use a small AC to DC converter like the [Meanwell HDR-30-24](https://www.amazon.com/dp/B084X92CK6) in order to have a single power supply.
 
-The board has a built-in 5x20mm cylinder format fuse on the power supply input.  The recommended fuse is 3.15A.
+The board has a built-in 5x20mm cylinder format fuse on the power supply input.  The recommended fuse is **3.15A**.
 
 Additionally, Brineomatic has an industrial grade power protection circuit with reverse polarity, reverse current, and an internal 4A eFuse overcurrent protection.
 
