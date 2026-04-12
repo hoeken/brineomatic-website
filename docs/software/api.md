@@ -46,6 +46,9 @@ Publishes all available information under topic: `yarrboard/brineomatic/*`
 - **depickle_countdown** - Seconds remaining in the current depickle operation *(only present when status is `DEPICKLING`)*
 - **pickled_on** - Unix timestamp of when the device was last pickled *(only present when status is `PICKLED`)*
 
+{: .note }
+All sensor data is in metric units (celcius, liters, lph, etc.)
+
 ### Home Assistant
 
 To use Brineomatic with Home Assistant, follow these steps:
