@@ -3,6 +3,7 @@ layout: default
 title: Revision B
 parent: Hardware
 nav_order: 3
+nav_exclude: true
 ---
 
 # Revision B

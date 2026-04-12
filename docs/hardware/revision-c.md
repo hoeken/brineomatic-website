@@ -2,7 +2,7 @@
 layout: default
 title: Revision C
 parent: Hardware
-nav_order: 2
+nav_order: 1
 ---
 
 # Revision C

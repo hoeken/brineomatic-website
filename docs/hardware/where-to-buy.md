@@ -2,7 +2,7 @@
 layout: default
 title: Where To Buy
 parent: Hardware
-nav_order: 5
+nav_order: 4
 ---
 
 # Where To Buy
