@@ -7,8 +7,7 @@ nav_order: 2
 
 # Revision C
 
-<div class="d-none d-md-block float-right ml-3 mb-3" style="width: 300px;"><a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-fluid"></a></div>
-<div class="d-block d-md-none mb-3"><a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-fluid w-100"></a></div>
+<a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-right"></a>
 
 ## Core capabilities:
 
