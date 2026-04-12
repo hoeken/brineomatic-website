@@ -9,7 +9,7 @@ nav_order: 3
 
 You can access the firmware at [http://brineomatic.local](http://brineomatic.local) ([http://brineomatic](http://brineomatic) on Android) or by entering the IP address.  The IP address and hostname are printed out over the serial port at startup.  You should see an interface similar to this:
 
-![Brineomatic Idle](assets/brineomatic-idle.png)
+![Brineomatic Idle](/assets/brineomatic-idle.png)
 
 ## Normal Run Cycle
 

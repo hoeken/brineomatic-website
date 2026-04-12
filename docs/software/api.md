@@ -58,7 +58,9 @@ To use Brineomatic with Home Assistant, follow these steps:
 * In Brineomatic, enable MQTT and the Home Assistant features
 * In Home Assistant, it should show the discovered watermaker
 
-**TODO: add link to dashboard YAML here**
+[Download the Home Assistant dashboard YAML here](/assets/brineomatic-home-assistant.yaml)
+
+![Home Assistant Dashboard](/assets/brineomatic home assistant dashboard.png)
 
 ## Raw API
 
