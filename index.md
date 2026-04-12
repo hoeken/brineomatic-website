@@ -6,6 +6,9 @@ nav_order: 1
 
 # Open Hardware Watermaker Controller
 
+<div class="d-none d-md-block float-right ml-3 mb-3" style="width: 300px;"><a href="/docs/hardware/revision-c"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-fluid"></a></div>
+<div class="d-block d-md-none mb-3"><a href="/docs/hardware/revision-c"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="SendIt Board Assembled" class="img-fluid w-100"></a></div>
+
 Brineomatic is an open-hardware, open-firmware watermaker controller that fully automates a marine reverse-osmosis watermaker. Designed for DIY, builders, and cruising sailors, it provides **full cycle automation**, **robust safety checks**, and **modern web-based control**.  All of this while remaining easy to service, modify, and adapt to nearly any watermaker—including Rainman, DIY builds, and traditional AC pump systems.
 
 Built on the **ESP32-S3**, Brineomatic integrates pressure sensors, flow meters, temperature sensing, and salinity monitoring with intelligent control of pumps, valves, and a high-pressure valve stepper motor. It automates the entire operating lifecycle: production runs, freshwater flushes, safety shutdowns, and chemical pickling/depickling.

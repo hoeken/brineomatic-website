@@ -7,7 +7,9 @@ has_children: true
 
 # Hardware
 
-![Layout of Revision C in Kicad.]({{ 'assets/brineomatic-rev-c layout.png' | relative_url }})
+![Layout of Revision C in Kicad.](/assets/brineomatic-rev-c layout.png)
+
+![Fininished PCBA](/assets/Brineomatic Rev C PCBA.jpg)
 
 ## Sensors and Actuators
 
@@ -19,7 +21,7 @@ You can [build one yourself from JLCPCB]({{ '/docs/hardware/where-to-buy' | rela
 
 ## Revisions
 
-- [Revision C1]({{ '/docs/hardware/revision-c1' | relative_url }}) — latest version
+- [Revision C]({{ '/docs/hardware/revision-c' | relative_url }}) — latest version
 - [Revision B]({{ '/docs/hardware/revision-b' | relative_url }}) — obsolete
 
 Brineomatic hardware is fully open source and licensed under the **Open Hardware License (OHL)** license.

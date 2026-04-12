@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Revision C1
+title: Revision C
 parent: Hardware
 nav_order: 2
 ---
 
-# Revision C1
+# Revision C
 
-Revision C1 is the latest version of the Brineomatic board.
+Revision C is the latest version of the Brineomatic board.
 
 ## Core capabilities:
 
