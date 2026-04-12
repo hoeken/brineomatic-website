@@ -6,9 +6,14 @@ $link-color: #0d6efd;
   margin-left: 1rem;
   margin-bottom: 1rem;
 
-  @media (max-width: 800px) {
+  @media (max-width: 576px) {
     float: none;
     width: 100%;
     margin-left: 0;
   }
+}
+
+h1, h2, h3
+{
+  clear: both;
 }
