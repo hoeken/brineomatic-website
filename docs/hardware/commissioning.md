@@ -58,4 +58,4 @@ Lastly, turn the high pressure pump on, and move your high pressure valve to you
 
 ## Step 10: Make Some Water!
 
-Turn everything off, and now you are ready to [make some water]({{ '/docs/hardware/revision-c' | relative_url }})!
+Turn everything off, and now you are ready to [make some water]({{ '/docs/software/operation' | relative_url }})!
