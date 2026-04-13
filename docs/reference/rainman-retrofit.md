@@ -21,20 +21,37 @@ Brineomatic itself is powered by a DIN mounted Meanwell 24v PSU.  This provides 
 
 ## Control Panel
 
-![Image of Brine-o-matic 9000 Rev A Electronics](/assets/rainman-install.jpg)
+The control panel is where most of the sensors and actuators live.  It has a bunch of 3d printed parts to hold everything together.  This is where the motors to control the diverter valve, and the high pressure valve are located, as well as the flowmeters, tds sensors, and the high pressure sensors are located.
+
+![Rainman Control Panel](/assets/rainman-install.jpg)
 
 ### Diverter Valve
+
+The diverter valve assembly controls the flow of the product water - either overboard or to the tanks.  This is important because the inital product water is typically too salty, and it is possible for the membrane to fail.  With a diverter valve, the system can make sure you only get clean water into your tanks.
+
+The design itself is pretty straightforward:  a couple parts to attach the servo motor and the valve, as well as a 3d printed adaptor between the servo motor and the valve itself.  There are two holes on the motor mount, that allow you to see the valve position.
+
+For the valve itself, it is very important to choose a valve that never fully closes off the water flow.  If you close off the product flow, pressure will build with nowhere to go, and things will break.  The valve I have used in this design allows the water to flow at all times.  It also has screw holes for panel mount, and the handle can be removed with a single screw.
 
 ![Diverter Valve Diagram](/assets/phoenix diverter valve diagram.png)
 
 ### High Pressure Valve
 
+The High Pressure Valve control is probably the most important and most difficult part of the watermaker to automate.  After trying a few different things, I settled this design which does not require any modification of the high pressure valve.  It is a complete assembly that fits over the regular valve.
+
+Some key features of this design are a 3:1 gear ratio using the super common GT2 belts and pulleys, a NEMA17 stepper motor for precision, repeatability, and reliability.  The hand wheel allows you to rotate the valve manually without removing any parts, although removing the assembly is also very easy.  It also has ball bearings for a very long expected lifetime.
+
 ![High Pressure Valve Diagram](/assets/phoenix high pressure valve stepper diagram.png)
+
+One of the important features of this design is the valve adapter.  The needle valve on the Rainman can move multiple rotations and because it is threaded, it also moves in and out.  The groove that mates with the valve handle needs to be tall enough to control it when it is all the way out and all the way in.
+
+Also, the shaft of the assembly is a simple hex bolt, so custom parts are needed, aside from the 3d printed parts.  The design is intended to be easy to DIY and easy to fix if needed.
 
 ![High Pressure Valve Cutaway](/assets/phoenix high pressure valve cutaway.png)
 
-
 ## Plumbing Block Diagram
+
+This is an older version of the block diagram used to design the system with part numbers.  The 3D Printable Control panel below is more recent and contains a more accurate design with part numbers for each part.
 
 [![Phoenix Rainman Setup Diagram](/assets/Phoenix - Rainman Setup.drawio.png)](/assets/Phoenix - Rainman Setup.drawio.pdf)
 

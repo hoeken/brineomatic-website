@@ -11,7 +11,7 @@ has_children: true
 
 ### Plumbing
 
-Here is a system-level overview of a typical watermaker setup with Brineomatic.  You can [download the Drawio file](/diagrams/Brine-o-Matic 9000.drawio) if you want to modify it for your own system.
+Here is a suggested system-level overview of a typical watermaker setup with Brineomatic.  You can [download the Drawio file](/diagrams/Brine-o-Matic 9000.drawio) if you want to modify it for your own system.
 
 [![Brine-o-Matic 9000 Plumbing Diagram](/assets/Brine-o-Matic 9000-Plumbing.drawio.png)](/assets/Brine-o-Matic 9000-Plumbing.drawio.pdf)
 
