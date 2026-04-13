@@ -25,6 +25,13 @@ The control panel is where most of the sensors and actuators live.  It has a bun
 
 ![Rainman Control Panel](/assets/rainman-install.jpg)
 
+## Low Pressure Side
+
+Here is the filter installation with the low pressure gauge and sensor, as well as the solenoid flush valve in the bottom right.  The solenoid is wired directly to Brineomatic as it is fairly low amperage.
+
+![Rainman Low Pressure Side](/assets/phoenix low pressure system.jpg)
+
+
 ### Diverter Valve
 
 The diverter valve assembly controls the flow of the product water - either overboard or to the tanks.  This is important because the inital product water is typically too salty, and it is possible for the membrane to fail.  With a diverter valve, the system can make sure you only get clean water into your tanks.
