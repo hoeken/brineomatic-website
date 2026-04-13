@@ -15,9 +15,11 @@ Here is a suggested system-level overview of a typical watermaker setup with Bri
 
 [![Brine-o-Matic 9000 Plumbing Diagram](/assets/Brine-o-Matic 9000-Plumbing.drawio.png)](/assets/Brine-o-Matic 9000-Plumbing.drawio.pdf)
 
-### Wiring
+### Power Electronics
 
-- TODO: add example wiring setup here.
+A nice and tidy way of wiring your system is to put most of the electronics into a waterproof box with DIN rail mounting.  Then run wires to all your sensors and actuators that need to physically be present on your watermaker.  For extra waterproofing you can use waterproof cable glands to enter/exit the box.
+
+[![Brine-o-Matic 9000 Wiring Diagram](/assets/Brine-o-Matic 9000-Electrical - Power Electronics.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - Power Electronics.drawio.pdf)
 
 ## Rainman Retrofit
 

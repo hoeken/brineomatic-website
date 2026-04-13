@@ -19,7 +19,9 @@ The coil for this contactor needs AC voltage, so I have a small relay that switc
 
 Brineomatic itself is powered by a DIN mounted Meanwell 24v PSU.  This provides a clean power supply to Brineomatic, as well as allowing me to have a single breaker to control power to the entire system.
 
-[![Brine-o-Matic 9000 High Voltage Wiring](/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.pdf)
+I did not have room in my installation to put Brineomatic into the box, but it is a bit neater and safer with the board isolated from potential saltwater contact.
+
+[![Brine-o-Matic 9000 High Voltage Wiring](/assets/Brine-o-Matic 9000-Phoenix Electrical - High Voltage.drawio.png)](/assets/Brine-o-Matic 9000-Phoenix Electrical - High Voltage.drawio.pdf)
 
 ## Control Panel
 
