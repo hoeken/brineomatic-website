@@ -17,19 +17,19 @@ Publishes all available information under topic: `yarrboard/brineomatic/*`
 - **flush_result** - Result of the last flush operation
 - **pickle_result** - Result of the last pickle (preservation) operation
 - **depickle_result** - Result of the last depickle operation
-- **motor_temperature** - Motor temperature
-- **water_temperature** - Inlet water temperature
-- **product_flowrate** - Flow rate of the product (fresh) water output
-- **brine_flowrate** - Flow rate of the brine (reject) water output
-- **total_flowrate** - Combined total flow rate
-- **volume** - Volume of product water produced in the current run
-- **flush_volume** - Volume of water used during flushing
-- **product_salinity** - Salinity of the product (fresh) water
-- **brine_salinity** - Salinity of the brine (reject) water
-- **filter_pressure** - Pressure at the pre-filter
-- **membrane_pressure** - Pressure at the RO membrane
-- **tank_level** - Fresh water tank fill level
-- **battery_level** - Battery charge level
+- **motor_temperature** - Motor temperature in °C
+- **water_temperature** - Inlet water temperature in °C
+- **product_flowrate** - Flow rate of the product (fresh) water output in LPH
+- **brine_flowrate** - Flow rate of the brine (reject) water output in LPH
+- **total_flowrate** - Combined total flow rate in LPH
+- **volume** - Volume of product water produced in the current run in liters
+- **flush_volume** - Volume of water used during flushing in liters
+- **product_salinity** - Salinity of the product (fresh) water in PPM
+- **brine_salinity** - Salinity of the brine (reject) water in PPM
+- **filter_pressure** - Pressure at the pre-filter in bar
+- **membrane_pressure** - Pressure at the RO membrane in bar
+- **tank_level** - Fresh water tank fill level (0.0–1.0)
+- **battery_level** - Battery charge level (0.0–1.0)
 - **boost_pump_on** - Whether the boost pump is currently running *(only present if device has a boost pump)*
 - **high_pressure_pump_on** - Whether the high pressure pump is currently running *(only present if device has a high pressure pump)*
 - **diverter_valve_open** - Whether the diverter valve is open *(only present if device has a diverter valve)*
