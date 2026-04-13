@@ -11,9 +11,11 @@ The Brineomatic project was started in order to automate my Rainman watermaker o
 
 ## Electrical - High Voltage
 
-My watermaker runs on 230v, so the high voltage electronics are all installed into a waterproof DIN rail enclosure.  This allows for an easy installation, keeps the electronics safe from accidental shorts, as well as keeping everything dry.
+My watermaker runs on 230v, and all the high voltage electronics are all installed into a waterproof DIN rail enclosure.  This allows for an easy installation, keeps humans safe from the high voltage, as well as keeping everything dry.
 
-For controlling the AC motor, I use a 230v / 63a contactor.  This contactor needs AC voltage for the coil, so I have a small relay that switches the contactor.  The relay is the part that is controlled by Brineomatic.  This has worked great for hundreds of cycles.
+For controlling the AC motor, I use a 230v / 25a (7b) contactor.  It is important to get a contactor with a **7b** rating suitable for your motor in order to handle the inductive load.  This Baomain contactor from Amazon has handled hundreds of cycles so far with zero issues. 
+
+The coil for this contactor needs AC voltage, so I have a small relay that switches the contactor on and off.  The relay is the part that is controlled by Brineomatic.  This has worked great for hundreds of cycles.
 
 Brineomatic itself is powered by a DIN mounted Meanwell 24v PSU.  This provides a clean power supply to Brineomatic, as well as allowing me to have a single breaker to control power to the entire system.
 
