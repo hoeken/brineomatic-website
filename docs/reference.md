@@ -11,21 +11,18 @@ has_children: true
 
 ### Plumbing
 
+Here is a system-level overview of a typical watermaker setup with Brineomatic.  You can [download the Drawio file](/diagrams/Brine-o-Matic 9000.drawio) if you want to modify it for your own system.
+
 [![Brine-o-Matic 9000 Plumbing Diagram](/assets/Brine-o-Matic 9000-Plumbing.drawio.png)](/assets/Brine-o-Matic 9000-Plumbing.drawio.pdf)
 
-### Electrical - High Voltage
+### Wiring
 
-[![Brine-o-Matic 9000 High Voltage Wiring](/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.png)](/assets/Brine-o-Matic 9000-Electrical - High Voltage.drawio.pdf)
+- TODO: add example wiring setup here.
 
 ## Rainman Retrofit
 
-[![Phoenix Rainman Setup Diagram](/assets/rainman-install.jpg)](/docs/reference/rainman-retrofit)
+<a href="/docs/reference/rainman-retrofit"><img src="/assets/rainman-install.jpg" class="img-right"></a>
 
-See the [Rainman Retrofit](/docs/reference/rainman-retrofit) page for more details on automating a Rainman watermaker with minimal modification and fail-safe fallback to manual mode.
+My [SV Phoenix Rainman retrofit](/docs/reference/rainman-retrofit) is the genesis of the Brineomatic project.  I modified the plumbing to attach all the various sensors, as well as automating the high pressure pump, high pressure valve, diverter valve, and flush valve.
 
-## Adapting to Other Watermakers
-Guidance for:
-- AC high-pressure pumps  
-- DC gear pumps  
-- Commercial RO units  
-- DIY builds  
+A large amount of this project uses 3d printed parts to hold all the parts together, with all the design files avaialable. I tried to use onlyl commonly available, off the shelf parts for the motors, sensors, relays, and solenoids.
