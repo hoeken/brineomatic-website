@@ -28,7 +28,7 @@ Switch to **MANUAL** mode and toggle the device you are testing.  Easy peasy.
 
 The stepper motor can be tested by going to **Manual Mode -> Advanced**.  You can move it forwards and backwards.  Attach a piece of tape to the motor shaft to see it moving more easily.  Move it 360 degrees and make sure that is how far it moves to verify your stepper settings.
 
-Once you have the stepper motor working, you can install it into the high pressure valve.  After that you should test again in manual mode to make sure that the set angle corresponds to the real world angle of the high pressure valve.  You should also check that the homing mode works correctly and doesnt jam in the open position.
+Once you have the stepper motor working, you can install it into the high pressure valve.  After that you should test again in manual mode to make sure that the set angle corresponds to the real world angle of the high pressure valve.  You should also check that the homing mode works correctly and doesn't jam in the open position.
 
 ## Step 4: Servo Motors
 
@@ -52,7 +52,7 @@ After a minute or two, the watermaker should be at pressure and producing good p
 
 ## Step 9: High Pressure Valve
 
-Open your high pressure valve and turn off your high pressure pump.  Use the Manual -> Advanced mode and click 'Home' on your stepper motor.  Verify that it moves in the correct direction and doesnt jam.  Use the UI to move it to your desired operating angle and verify it moves to that exact angle.  Use the homing button again to reset it.
+Open your high pressure valve and turn off your high pressure pump.  Use the Manual -> Advanced mode and click 'Home' on your stepper motor.  Verify that it moves in the correct direction and doesn't jam.  Use the UI to move it to your desired operating angle and verify it moves to that exact angle.  Use the homing button again to reset it.
 
 Lastly, turn the high pressure pump on, and move your high pressure valve to your operating angle.  Use the +/- buttons to tweak the angle to get the pressure just right.  It is better to undershoot the pressure and slowly increase the angle so that you don't introduce backlash errors into the system.
 

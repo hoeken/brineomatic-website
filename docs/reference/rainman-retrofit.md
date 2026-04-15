@@ -56,7 +56,7 @@ Some key features of this design are a 3:1 gear ratio using the super common GT2
 
 One of the important features of this design is the valve adapter.  The needle valve on the Rainman can move multiple rotations and because it is threaded, it also moves in and out.  The groove that mates with the valve handle needs to be tall enough to control it when it is all the way out and all the way in.
 
-Also, the shaft of the assembly is a simple hex bolt, so custom parts are needed, aside from the 3d printed parts.  The design is intended to be easy to DIY and easy to fix if needed.
+Also, the shaft of the assembly uses a simple hex bolt, so no custom parts are needed beyond the 3d printed components.  The design is intended to be easy to DIY and easy to fix if needed.
 
 ![High Pressure Valve Cutaway](/assets/phoenix high pressure valve cutaway.png)
 

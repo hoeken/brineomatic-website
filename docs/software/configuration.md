@@ -2,7 +2,7 @@
 layout: default
 title: Configuration
 parent: Software
-nav_order: 3
+nav_order: 2
 ---
 
 # Configuration
@@ -68,8 +68,8 @@ The boost pump is a low pressure pump that supplies the high pressure pump with 
 ### Cooling Fan
 
 - **NONE** - Not installed, Brineomatic will skip all related operations.
-- **MANUAL** - Flush Valve present, but controlled externally.
-- **RELAY** - Flush Valve controlled by relay, with configurable channel.
+- **MANUAL** - Cooling Fan present, but controlled externally.
+- **RELAY** - Cooling Fan controlled by relay, with configurable channel.
 
 **Inverted** - Tells Brineomatic whether **ON** or **OFF** provides power to the relay.
 **ON / OFF Temperature** - The cooling fan will be turned on and off based on the motor temperature.
@@ -93,7 +93,7 @@ The boost pump is a low pressure pump that supplies the high pressure pump with 
 - **DS18B20** - Temperature sensor present, connected to Brineomatic
 - **MQTT** - Temperature data pulled from MQTT topic
 
-**MQTT Path** - The MQTT path to the temperature.  Units should be in Celcius
+**MQTT Path** - The MQTT path to the temperature.  Units should be in Celsius
 
 ### Tank Level
 

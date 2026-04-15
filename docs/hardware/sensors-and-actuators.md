@@ -23,7 +23,7 @@ Brineomatic uses JST-PH 2.0 connectors for many of its connectors.  It is very h
 
 Brineomatic supports standard 4–20 mA analog pressure sensors for monitoring filter inlet and membrane pressure.  These sensors are powered by the same voltage that powers the board (12v/24v).
 
-Typically you will want a 0-1000psi sensor for the high pressure side, and a 0-50psi sensor for the low pressure side.
+Typically you will want a 0–1000 psi sensor for the membrane pressure, and a 0–50 psi sensor for the filter pressure.
 
 ### Verified Suppliers
 

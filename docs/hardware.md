@@ -9,7 +9,7 @@ has_children: true
 
 ![Layout of Revision C in Kicad.](/assets/brineomatic-rev-c layout.png)
 
-![Fininished PCBA](/assets/Brineomatic Rev C PCBA.jpg)
+![Finished PCBA](/assets/Brineomatic Rev C PCBA.jpg)
 
 ## Block Level Design
 
@@ -75,7 +75,7 @@ All hardware design files (schematics, gerbers, and BOM) are available on [GitHu
     * **Analog Inputs:** Added inline 100Ω resistors to temperature sensors and servo inputs. Switched to BAV199 diodes for protection on Pressure/TDS inputs.
 * **Peripherals:**
     * **RS485:** Added MAX-485 circuit with termination resistor.
-    * **Buzzer:** Switched to Huaneng QMB-09B-03 (SendIt piezo) + diode.
+    * **Buzzer:** Switched to Huaneng QMB-09B-03 piezo buzzer + diode.
     * **Steppers:** Removed VREF circuitry from TMC2209 driver; improved 24V routing.
     * **Relays:** Added an extra relay/solenoid output.
 

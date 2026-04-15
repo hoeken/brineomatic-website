@@ -64,7 +64,7 @@ To use Brineomatic with Home Assistant, follow these steps:
 
 ## Raw API
 
-The protocol for communicating with Yarrboard is entirely based on JSON messages. Each request to the server should be a single JSON object, and the server will respond with a JSON object.
+The protocol for communicating with Brineomatic is entirely based on JSON messages. Each request to the server should be a single JSON object, and the server will respond with a JSON object.
 
 The protocol works over the following transport layers:
 
@@ -79,10 +79,10 @@ Here are some example commands you could send:
 {"cmd": "start_watermaker"}
 {"cmd": "stop_watermaker"}
 {"cmd": "flush_watermaker"}
-{"cmd": "set_watermaker", "motor_temperature", 40}
-{"cmd": "set_watermaker", "water_temperature", 23}
-{"cmd": "set_watermaker", "tank_level", 0.75}
-{"cmd": "set_watermaker", "battery_level", 0.50}
+{"cmd": "set_watermaker", "motor_temperature": 40}
+{"cmd": "set_watermaker", "water_temperature": 23}
+{"cmd": "set_watermaker", "tank_level": 0.75}
+{"cmd": "set_watermaker", "battery_level": 0.50}
 ```
 
 For detailed information on the Brineomatic specific protocol, see ```src/controllers/BrineomaticController.cpp```

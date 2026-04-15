@@ -27,4 +27,4 @@ A nice and tidy way of wiring your system is to put most of the electronics into
 
 My [SV Phoenix Rainman retrofit](/docs/reference/rainman-retrofit) is the genesis of the Brineomatic project.  I modified the plumbing to attach all the various sensors, as well as automating the high pressure pump, high pressure valve, diverter valve, and flush valve.
 
-A large amount of this project uses 3d printed parts to hold all the parts together, with all the design files avaialable. I tried to use onlyl commonly available, off the shelf parts for the motors, sensors, relays, and solenoids.
+A large amount of this project uses 3d printed parts to hold all the parts together, with all the design files available. I tried to use only commonly available, off the shelf parts for the motors, sensors, relays, and solenoids.
