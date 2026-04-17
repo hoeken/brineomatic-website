@@ -9,7 +9,7 @@ nav_order: 1
 
 ## Core capabilities:
 
-<a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="Brineomatic Rev C Board Assembled" class="img-right"></a>
+<a href="/assets/Brineomatic Rev C Finished.jpg"><img src="/assets/Brineomatic Rev C Finished.jpg" alt="Brineomatic Rev C Board Assembled" class="img-main"></a>
 
 - ESP32-S3 module with WiFi and USB-C  
 - 12–30 V DC input with onboard power regulation  
