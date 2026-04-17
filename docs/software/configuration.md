@@ -93,7 +93,7 @@ The boost pump is a low pressure pump that supplies the high pressure pump with 
 - **DS18B20** - Temperature sensor present, connected to Brineomatic
 - **MQTT** - Temperature data pulled from MQTT topic
 
-**MQTT Path** - The MQTT path to the temperature.  Units should be in Celsius
+**MQTT Path** - The MQTT path to the temperature.  Data should be in Celsius
 
 ### Tank Level
 
@@ -101,7 +101,7 @@ The boost pump is a low pressure pump that supplies the high pressure pump with 
 - **EXTERNAL** - Tank level data provided through Brineomatic API
 - **MQTT** - Tank level data pulled from MQTT topic
 
-**MQTT Path** - The MQTT path to the tank level data.  Can either be 0.0-1.0 or 0-100%.
+**MQTT Path** - The MQTT path to the tank level data.  Data can either be 0.0-1.0 or 0-100%.
 
 ### Battery Level
 
@@ -109,4 +109,4 @@ The boost pump is a low pressure pump that supplies the high pressure pump with 
 - **EXTERNAL** - Battery level data provided through Brineomatic API
 - **MQTT** - Battery level data pulled from MQTT topic
 
-**MQTT Path** - The MQTT path to the battery level data.  Can either be 0.0-1.0 or 0-100%.
+**MQTT Path** - The MQTT path to the battery level data.  Data can either be 0.0-1.0 or 0-100%.
