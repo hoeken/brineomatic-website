@@ -70,4 +70,4 @@ This is an older version of the block diagram used to design the system with par
 
 * [Rainman Plumbing Diagram - Drawio](https://github.com/hoeken/brineomatic/blob/main/diagrams/Phoenix%20-%20Rainman%20Setup.drawio)
 * [Electronics Wiring Diagram - Drawio](https://github.com/hoeken/brineomatic/blob/main/diagrams/Brine-o-Matic%209000.drawio)
-* [3D Printable Control Panel - STEP file](https://github.com/hoeken/brineomatic/blob/main/models/Rainman%20Control%20Panel%20-%20Rev%20B.step)
+* [3D Printable Control Panel - STEP file](https://github.com/hoeken/brineomatic/blob/main/models/Brineomatic%20Control%20Panel%20-%20Rev%20B.step)
